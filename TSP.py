@@ -3,9 +3,11 @@ import math
 import numpy as np
 import matplotlib.pyplot as plt
 
+# Sử dụng thuật toán luyện kim để giải quyết bài toán Travelling Saleman Problem
+
 TMax = 1000
 TMin = 0.005
-Alpha = 0.97
+Alpha = 0.95
 cities = [(0, 0), (1.5, 3), (3, 1), (2, 4), (5, 3), (2, 5), (1, 6), (4, 4), (3, 3), (0, 2), (2, 2)]
 
 
